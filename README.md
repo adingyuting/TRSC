@@ -1,6 +1,6 @@
 # TRSC
 
-Official PyTorch implementation of TRSC for link prediction on directed
+Official PyTorch implementation of TRSC on directed
 dynamic graphs.
 
 TRSC combines causal tensor graph convolution, historical-activity-guided edge
