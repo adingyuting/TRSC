@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trsc"
+version = "1.0.0"
+description = "TRSC: preprocessing, training, and evaluation for dynamic-graph link prediction"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "scikit-learn>=1.2",
+    "scipy>=1.9",
+    "torch>=2.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["trsc*"]
